@@ -1,0 +1,93 @@
+/* common share style */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/* header style */
+.header{
+    background-image: url(images/banner/banner3.png);
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.banner{
+    text-align: right;
+    padding-top: 150px;
+    padding-left: 850px;
+    width: 30%;
+}
+.banner-content{
+    color: white;
+}
+.banner-greeting{
+    font-size: 50px;
+    font-weight: 700;
+}
+.btn-primary{
+    border-radius: 5px;
+    border: 0;
+    color: #005FAC;;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 35px;
+}
+
+/* main style */
+
+.about-person{
+    display: flex;
+    margin: 150px 200px;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0 20px; */
+}
+
+.person-content{
+    margin-left: 100px;
+    padding-top: 120px;
+}
+
+.detals-header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.detals{
+    display: flex;
+    gap: 100px;
+    margin: 50px 300px;
+}
+.detals-content{
+    text-align: center;
+}
+
+/* last */
+
+.last{
+    background-image: url(images/gradient1.png), url(images/watch.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-left: 200px;
+}
+.last-conten{
+    padding-top: 50px;
+    padding-left: 100px;
+    width: 30%;
+}
+.last-heading{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+footer{
+    background: black;
+    height: 400px;
+    display: flex;
+    color: white;
+    margin-top: 100px;
+    padding: 130px 200px;
+    gap: 500px;
+}
+
+.footer-fast{
+    width: 50%;
+}
